@@ -89,9 +89,8 @@ enum {
 #define SDR_SENSOR_STAT_HI_CR	(1<<4)
 #define SDR_SENSOR_STAT_HI_NR	(1<<5)
 
-#define GET_DEVICE_SDR_INFO      0x20
-#define GET_DEVICE_SDR           0x21
-#define GET_SENSOR_FACTORS      0x23
+#define GET_DEVICE_SDR_INFO     0x20
+#define GET_DEVICE_SDR          0x21
 #define GET_SENSOR_FACTORS      0x23
 #define SET_SENSOR_HYSTERESIS	0x24
 #define GET_SENSOR_HYSTERESIS	0x25
@@ -100,8 +99,6 @@ enum {
 #define SET_SENSOR_EVENT_ENABLE	0x28
 #define GET_SENSOR_EVENT_ENABLE 0x29
 #define GET_SENSOR_EVENT_STATUS	0x2b
-#define GET_SENSOR_READING	0x2d
-#define GET_SENSOR_TYPE		0x2f
 #define GET_SENSOR_READING      0x2d
 #define GET_SENSOR_TYPE         0x2f
 
